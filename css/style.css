@@ -104,17 +104,22 @@ main {
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
+   overflow: auto;
 }
 
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
+ 
+    width: 100%;
+
 }
 
 .benefit img {
-    display: block;
+ 
     margin: 10px auto;
     max-width: 150px;
+    display: block;
 }
 
 
@@ -127,11 +132,15 @@ main {
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
+    display:block;
 }
+
 
 .job img {
     max-height: 200px;
 }
+
+
 
 .job h2 {
     margin-bottom: 20px;
